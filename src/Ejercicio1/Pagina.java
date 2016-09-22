@@ -7,6 +7,15 @@ public class Pagina {
     public String mes;
     public Integer dia;
     public boolean esFestiu;
+    public Cita cita;
+
+    public Cita getCita() {
+        return cita;
+    }
+
+    public void setCita(Cita cita) {
+        this.cita = cita;
+    }
 
     public String getMes() {
         return mes;
@@ -31,4 +40,5 @@ public class Pagina {
     public void setEsFestiu(boolean esFestiu) {
         this.esFestiu = esFestiu;
     }
+
 }

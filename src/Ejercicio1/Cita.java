@@ -8,7 +8,6 @@ public class Cita {
     public String motiu;
     public String hora_fi;
     public String hora_inici;
-    public String contingut;
 
     public String getMotiu() {
         return motiu;
@@ -32,13 +31,5 @@ public class Cita {
 
     public void setHora_inici(String hora_inici) {
         this.hora_inici = hora_inici;
-    }
-
-    public String getContingut() {
-        return contingut;
-    }
-
-    public void setContingut(String contingut) {
-        this.contingut = contingut;
     }
 }
