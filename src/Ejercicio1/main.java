@@ -11,16 +11,16 @@ public class main {
         try {
         Agenda agenda =new Agenda() ;
         Cita cita = new Cita();
-        List<String> listaPaginas = new ArrayList<>();
-
+        List<Pagina> listaPaginas = new ArrayList<>();
 
         int numero = agenda.getIterador();
         if(numero == 0){
             numero = 1;
         }
         agenda.setIterador(numero);
-        for(int i = 0; i < 52 ; i++){
-            listaPaginas.add( ("pagina"+"i"));
+        for(int i = 1; i < 52 ; i++){
+            Pagina pagina = new Pagina();
+            listaPaginas.add((pagina));
         }
     }
         catch(Exception  e){
