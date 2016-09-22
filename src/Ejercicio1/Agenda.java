@@ -10,9 +10,9 @@ import java.util.List;
  * Created by Albert on 21/09/2016.
  */
 public class Agenda {
-    public List<Pagina> pagina = new ArrayList<>() ;
-    public int ann;
-    protected int Iterador = 0;
+    private List<Pagina> pagina = new ArrayList<>() ;
+    private int ann;
+    private int Iterador = 0;
 
     public List<Pagina> getPagina() {
         return pagina;

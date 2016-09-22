@@ -5,9 +5,9 @@ package Ejercicio1;
  * Created by Albert on 21/09/2016.
  */
 public class Cita {
-    public String motiu;
-    public String hora_fi;
-    public String hora_inici;
+    private String motiu;
+    private String hora_fi;
+    private String hora_inici;
 
     public String getMotiu() {
         return motiu;

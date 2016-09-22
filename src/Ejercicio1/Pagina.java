@@ -4,10 +4,10 @@ package Ejercicio1;
  * Created by Albert on 21/09/2016.
  */
 public class Pagina {
-    public String mes;
-    public Integer dia;
-    public boolean esFestiu;
-    public Cita cita;
+    private String mes;
+    private Integer dia;
+    private boolean esFestiu;
+    private Cita cita;
 
     public Cita getCita() {
         return cita;
