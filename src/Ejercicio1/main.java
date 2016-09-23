@@ -7,7 +7,8 @@ import java.util.ArrayList;
  * Created by Albert on 21/09/2016.
  */
 public class main {
-    public static void main (String args[]) {
+
+    public static void main(String args[]) {
         try {
         Agenda agenda =new Agenda() ;
         Cita cita = new Cita();
@@ -17,11 +18,13 @@ public class main {
         if(numero == 0){
             numero = 1;
         }
+
         agenda.setIterador(numero);
         for(int i = 1; i < 52 ; i++){
             Pagina pagina = new Pagina();
             listaPaginas.add((pagina));
         }
+        agenda.setPagina(listaPaginas);
     }
         catch(Exception  e){
 

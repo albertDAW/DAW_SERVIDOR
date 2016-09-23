@@ -41,4 +41,5 @@ public class Pagina {
         this.esFestiu = esFestiu;
     }
 
+
 }
