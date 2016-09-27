@@ -5,6 +5,6 @@ package Ejercicio2;
  */
 public class Borrar {
     protected void finalize() throws Throwable {
-        System.out.println("Barcos y putas");
+        System.out.println("Se ha lanzado la funcion finalize de la clase borrar");
     }
 }
