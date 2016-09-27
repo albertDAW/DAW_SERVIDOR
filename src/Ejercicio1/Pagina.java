@@ -1,5 +1,7 @@
 package Ejercicio1;
 
+import java.util.ArrayList;
+import java.util.List;
 /**
  * Created by Albert on 21/09/2016.
  */
@@ -7,15 +9,16 @@ public class Pagina {
     private String mes;
     private Integer dia;
     private boolean esFestiu;
-    private Cita cita;
 
-    public Cita getCita() {
-        return cita;
+    public List<Cita> getLlistaCita() {
+        return llistaCita;
     }
 
-    public void setCita(Cita cita) {
-        this.cita = cita;
+    public void setLlistaCita(List<Cita> llistaCita) {
+        this.llistaCita = llistaCita;
     }
+
+    private List<Cita> llistaCita = new ArrayList<>();
 
     public String getMes() {
         return mes;
@@ -41,5 +44,8 @@ public class Pagina {
         this.esFestiu = esFestiu;
     }
 
+    public void borrarCita(int Integer){
+
+    }
 
 }
