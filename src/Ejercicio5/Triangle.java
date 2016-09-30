@@ -47,6 +47,7 @@ public class Triangle extends FiguraGeometrica {
               "\n" + "Altura........:" + altura +
               "\n" + "�rea..........:" + area();
    }
+   @Override
    public void visualitzar () {
       System.out.print(toString());
    }

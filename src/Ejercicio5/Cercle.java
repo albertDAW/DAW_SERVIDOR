@@ -39,7 +39,7 @@ public class Cercle extends FiguraGeometrica {
        objeto = "Soc un cercle"+"\n"+"*************"+super.toString();
        return objeto;
    }
-   
+   @Override
    public void visualitzar () {
        System.out.print(toString());
    }

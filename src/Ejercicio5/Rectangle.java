@@ -51,6 +51,7 @@ public class Rectangle extends FiguraGeometrica {
               "\n" + ("Per�metre.....:" + perimetre()) +
               "\n" + "�rea..........:" + area();
    }
+   @Override
    public void visualitzar () {
 
       System.out.print(toString());
