@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Albert on 19/10/2016.
  */
-public class RegularClase extends FiguraGeometricaClase implements Regular{
+public abstract class RegularClase extends FiguraGeometricaClase implements Regular{
 
     int coordenadaX;
     int coordenadaY;

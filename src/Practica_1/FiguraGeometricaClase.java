@@ -6,7 +6,7 @@ import java.util.Scanner;
 /**
  * Created by Albert on 19/10/2016.
  */
-public class FiguraGeometricaClase implements FiguraGeometrica{
+public abstract class FiguraGeometricaClase implements FiguraGeometrica{
     String tipo;
     Boolean esRellenable;
     @Override

@@ -5,7 +5,7 @@ import java.util.Scanner;
 /**
  * Created by Albert on 19/10/2016.
  */
-public class StandardClase extends RegularClase implements Standard {
+public abstract class StandardClase extends RegularClase implements Standard {
 
     int ancho;
     @Override
